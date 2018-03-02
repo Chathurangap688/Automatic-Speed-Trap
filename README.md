@@ -15,3 +15,9 @@ So in this project we are expected to track the vehicle speed and if there any v
 
 # CO325 
   All the transmition are happeninig via encrypted method. Then any other parties cannot access and change the value.
+
+# BackEnd
+ Using laraval framework of php
+# frontEnd 
+vueJS  frontend
+ 
