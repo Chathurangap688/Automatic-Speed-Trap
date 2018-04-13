@@ -15,7 +15,7 @@ class ImagController extends Controller
         $decode=base64_decode($explote[1]);
         $extention=$explote[0];
         $time=Carbon::now()->timestamp;
-        $fileName=$time+'.'+$extention;
+        $fileName=$time.'.'.$extention;
         $filePath=public_path().'/'.$fileName;
         file_put_contents($filePath,$decode);
 
